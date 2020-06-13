@@ -1,5 +1,6 @@
 package sec03.exam01_multi_type_parameter;
 
+// 제네릭 객체 생성
 public class ProductExample {
 
 	public static void main(String[] args) {
