@@ -6,7 +6,7 @@ public class BoundedTypeParameterExample {
 		// int result1 = Util.compare("a", "b");
 		// String은 Number의 자식 클래스 타입이 아니므로 배개변수로 문자열을 가질 수 없다.
 
-		int result1 = Util.<Integer>compare(10, 20);		
+		int result1 = Util.<Integer>compare(10, 20);
 		// <Integer> 생략 가능
 		// 10, 20 -> Integer 자동 Boxing
 		System.out.println(result1);
