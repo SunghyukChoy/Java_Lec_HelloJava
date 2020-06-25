@@ -1,4 +1,4 @@
-package Ex15_2;
+package sec02.exam02_vector;
 
 // 게시물 정보 객체
 public class Board {
