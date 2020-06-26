@@ -1,4 +1,4 @@
-package Ex15_4;
+package sec04.exam01_hashmap;
 
 import java.io.FileReader;
 import java.net.URLDecoder;

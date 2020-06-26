@@ -1,4 +1,6 @@
-package Ex15_4;
+package sec04.exam01_hashmap;
+
+import java.util.Objects;
 
 // 키로 사용할 객체 - hashCode()와 equals() 재정의
 public class Student {
@@ -21,6 +23,6 @@ public class Student {
 	
 	public int hashCode() {	// 학번과 이름이 같다면 동일한 값을 리턴
 		return sno + name.hashCode();
+		// return Objects.hash(sno, name);
 	}
-
 }
