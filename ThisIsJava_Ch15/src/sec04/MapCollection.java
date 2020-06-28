@@ -16,8 +16,8 @@ public class MapCollection {
 		Map<String, Integer> map3 = new LinkedHashMap<String, Integer>();
 		Map<String, Integer> map4 = new TreeMap<String, Integer>();
 		Properties properties = new Properties();
-		
-		// Map 컬렉션 : 
+
+		// Map 컬렉션 :
 		// 키(key)와 값(value)으로 구성된 Map.Entry 객체를 저장하는 구조
 		// 기와 값은 모두 객체
 		// 키는 중복될 수 없지만 값은 중복 저장 가능

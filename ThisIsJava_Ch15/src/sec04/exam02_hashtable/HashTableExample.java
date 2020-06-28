@@ -6,8 +6,8 @@ import java.util.*;
 public class HashTableExample {
 	public static void main(String[] ar) {
 		Map<String, String> map = new Hashtable<String, String>();
-		
-		// Hashtable : 
+
+		// Hashtable :
 		// 키 객체는 hashCode()와 equals()를 재정의해서 동등 객체가 될 조건을 정해야 한다.
 		// Hashtable은 스레드 동기화(synchronization)가 되어 있기 떄문에
 		// 복수의 스레드가 동시에 Hashtable에 접근해서 객체를 추가, 삭제하더라도 스레드에 안전(thread safe)하다.

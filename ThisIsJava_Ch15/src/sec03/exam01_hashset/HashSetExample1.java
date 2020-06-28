@@ -6,7 +6,7 @@ import java.util.*;
 public class HashSetExample1 {
 
 	public static void main(String[] args) {
-		Set<String> set = new HashSet<String>();		
+		Set<String> set = new HashSet<String>();
 
 		// HashSet :
 		// 동일 객체 및 동등 객체는 중복 저장하지 않는다.
@@ -37,12 +37,12 @@ public class HashSetExample1 {
 			String element = iterator.next(); // 한 개의 객체를 가져온다.
 			System.out.println("\t" + element);
 		}
-		
+
 		set.remove("JDBC"); // 한 개의 객체 삭제
 		set.remove("iBATIS"); // 한 개의 객체 삭제
 
 		System.out.println("총 객체수: " + set.size()); // 저장된 객체 수 얻기
-		
+
 		iterator = set.iterator();
 		while (iterator.hasNext()) { // 객체 수만큼 루핑
 			String element = iterator.next();
@@ -50,28 +50,28 @@ public class HashSetExample1 {
 		}
 
 		System.out.println("총 객체수: " + set.size()); // 저장된 객체 수 얻기
-		
+
 		for (String elemnet : set) {
 			System.out.println("\t" + elemnet);
 		}
-		
-		while(iterator.hasNext()) {
+
+		while (iterator.hasNext()) {
 			String str = iterator.next();
-			if(str.equals("Java")) {
+			if (str.equals("Java")) {
 				iterator.remove();
-			}			
+			}
 		}
-		
+
 		System.out.println("총 객체수: " + set.size()); // 저장된 객체 수 얻기
-		
-		set.remove("Java");		
+
+		set.remove("Java");
 		System.out.println("set.remove 후 총 객체수: " + set.size()); // 저장된 객체 수 얻기
 		iterator = set.iterator();
-		while(iterator.hasNext()) {
+		while (iterator.hasNext()) {
 			String str = iterator.next();
 			System.out.println("\t" + str);
 		}
-		
+
 		set.clear(); // 모든 객체를 제거하고 비움
 		if (set.isEmpty()) {
 			System.out.println("비어 있음");

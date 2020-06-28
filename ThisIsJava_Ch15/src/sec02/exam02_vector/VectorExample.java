@@ -35,12 +35,11 @@ public class VectorExample {
 			System.out.println("index = " + i + "\t" + board.subject + "\t" + board.content + "\t" + board.writer);
 		}
 		System.out.println();
-		
+
 		list.remove(3); // 3번 인덱스 객체(제목5) 삭제
 		for (int i = 0; i < list.size(); i++) {
 			Board board = list.get(i);
 			System.out.println("index = " + i + "\t" + board.subject + "\t" + board.content + "\t" + board.writer);
 		}
 	}
-
 }

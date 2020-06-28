@@ -63,7 +63,7 @@ public class ArrayListExample {
 		for (String str : list2) {
 			System.out.println(str);
 		}
-		list2.add("객체 추가");	// 객체 추가 시  마지막 인덱스에 저장됨.
+		list2.add("객체 추가"); // 객체 추가 시 마지막 인덱스에 저장됨.
 		for (int i = 0; i < list2.size(); i++) {
 			String str = list2.get(i);
 			System.out.println(i + "번 인덱스의 값 = " + str);
