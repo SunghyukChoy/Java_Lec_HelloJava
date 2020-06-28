@@ -6,11 +6,7 @@ import java.util.*;
 public class HashSetExample1 {
 
 	public static void main(String[] args) {
-		Set<String> set = new HashSet<String>();
-		// Set 컬렉션 :
-		// 수학의 집합에 비유될 수 있다.
-		// 저장 순서가 유지되지 않는다.
-		// 객체를 중복해서 저장할 수 없고 하나의 null만 저장할 수 있다.
+		Set<String> set = new HashSet<String>();		
 
 		// HashSet :
 		// 동일 객체 및 동등 객체는 중복 저장하지 않는다.

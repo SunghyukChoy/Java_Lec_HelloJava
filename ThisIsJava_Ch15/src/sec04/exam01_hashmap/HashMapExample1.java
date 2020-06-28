@@ -18,7 +18,7 @@ public class HashMapExample1 {
 		// - String은 문자열이 같을 경우 동등 객체가 될 수 있도록 hashCode()와 equals() 메소드가 재정의되어 있기 때문.
 
 		// 객체 저장
-		map.put("신용권", new Integer(85));
+		map.put("신용권", Integer.valueOf(85));
 		map.put("홍길동", 90);
 		map.put("동장군", 80);
 		map.put("홍길동", 95); // "홍길동" 키가 같기 때문에 제일 마지막에 저장한 값으로 대치
